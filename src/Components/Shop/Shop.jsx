@@ -7,20 +7,20 @@ import PayedCard from './PayedCard'
 export default function Shop() {
 
     const [products] = useState([
-        { id: 1, title: 'hodi ', price: 5, img: 'images/hodi.png/' },
-        { id: 2, title: 'jacket', price: 15, img: 'images/jacket.png' },
-        { id: 3, title: 'poloshirt', price: 20, img: 'images/poloshirt.png' },
-        { id: 4, title: 'shirt', price: 100, img: 'images/shirt.png' },
-        { id: 5, title: 'tshirt', price: 5, img: 'images/tshirt.png' },
-        { id: 6, title: 'white-jacket', price: 50, img: 'images/white-jacket.png' },
+        { id: 1, title: 'hodi ', price: 5, img: '/images/hodi.png' },
+        { id: 2, title: 'jacket', price: 15, img: '/images/jacket.png' },
+        { id: 3, title: 'poloshirt', price: 20, img: '/images/poloshirt.png' },
+        { id: 4, title: 'shirt', price: 100, img: '/images/shirt.png' },
+        { id: 5, title: 'tshirt', price: 5, img: '/images/tshirt.png' },
+        { id: 6, title: 'white-jacket', price: 50, img: '/images/white-jacket.png' },
     ])
 
     const [shoppingCart, setShoppingCart] = useState([])
     const [payed, setPayed] = useState([])
     const [socials] = useState([
-        { id: 1, href: 'https://www.youtube.com', img: 'images\youtube.png' },
-        { id: 2, href: 'https://twitter.com', img: 'images\twitter.png' },
-        { id: 3, href: 'https://www.facebook.com', img: 'images\facebook.png' },
+        { id: 1, href: 'https://www.youtube.com', img: '/images/youtube.png' },
+        { id: 2, href: 'https://twitter.com', img: '/images/twitter.png' },
+        { id: 3, href: 'https://www.facebook.com', img: '/images/facebook.png' },
     ])
 
     /* this function add selected product to card product */
